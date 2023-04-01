@@ -1,0 +1,60 @@
+home-component {
+  font-family: "Lato", serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.7;
+  /* background-color: #777; */
+  padding: 30px;
+  color: rgba(0, 0, 255, 0.1);
+}
+header {
+  color: rgba(255, 255, 255, 0.929);
+  // background: linear-gradient(to right bottom, rgba(95, 79, 195, 0.8), #22223b),
+  // url(./images/hero.jpg);
+  background-color: rgb(34, 34, 59);
+  clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);
+  height: 95vh;
+  contain: content;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.logo-box {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
+.logo {
+  height: 10px;
+}
+.text-box {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.heading-primary {
+  text-transform: uppercase;
+}
+.heading-primary-main {
+  display: block;
+  font-size: 60px;
+  font-weight: 700;
+  letter-spacing: 30px;
+}
+.heading-primary-sub {
+  display: block;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 11px;
+}
+.textarea {
+  margin: 70px;
+}
+// .textarea_header_1 .textarea_header_1 {
+//   justify-content: center;
+// }
+.textarea_para_3 {
+  text-align: left;
+  justify-content: center;
+}
